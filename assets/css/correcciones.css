@@ -329,11 +329,83 @@ button.btns::before {
     background: #B2B4B3;
 }
 
+.tag-area.one .marquee-block .content-box h6.title:hover {
+    color: #B2B4B3;
+}
+
+.about-area.one .about-button a::after {
+    background: #fff;
+}
+
 /* Acomodo */
+.centerObject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.margin0{
+    margin: 0 !important;
+}
+
+.margin5 {
+    margin: 5%;
+}
+
+.padding1{
+    padding: 1% !important;
+}
+
+.padding-Top-0 {
+    padding-top: 0 !important;
+}
+
+.padding-Top-5 {
+    padding-top: 5% !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.testimonial-area.one.lotes .testimonial-tmb::before {
+    background: none;
+}
+
+.lotes .container{
+    width: 100% !important;
+}
+
+.lotes .container .row.align-items-center{
+    max-width: 100% !important;
+}
+
+
 
 /* Correcciones */
+.slider-area.one .slider-button::before {
+    content: none;
+}
+
+.appoinment-tab .tabs li.boder a::before {
+    content: none;
+}
 
 /* Nuevos estilos */
 .blackColor {
     color: #000 !important;
+}
+
+.corregirApartado {
+    padding: 0% !important;
+    padding-top: 10% !important;
+    background-color: unset !important;
+}
+
+.about-area.one.corregirApartado .about-button::before {
+    border: unset;
 }

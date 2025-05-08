@@ -1,0 +1,339 @@
+/* Colores */
+.hendre_nav_manu {
+    background: #616A69 !important;
+    border: 1px solid #B2B4B3;
+}
+
+.slider-area.one .slider-title h1 span {
+    color: #000;
+}
+
+.sub-title h2 span {
+    color: #000;
+}
+
+.slider-area.one {
+    background: #616A69;
+}
+
+.slider-area.one .row.bor-der {
+    border: 1px solid #B2B4B3;
+}
+
+.slider-area.one .single-slider {
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+}
+
+.slider-area.one .slider-title h4 {
+    color: #fff;
+}
+
+.slider-area.one .slider-number h1 {
+    -webkit-text-stroke-color: #fff;
+}
+
+.feature-area.one {
+    background: #616A69;
+}
+
+.feature-area.one .feature-content p {
+    color: #fff;
+}
+
+.feature-area.one .feature-content h4 {
+    color: #B2B4B3;
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+}
+
+.feature-area.one .feature-content h4:hover {
+    color: #000 !important;
+    background: #B2B4B3;
+}
+
+.feature-area.one .feature-content h4::before {
+    background: #B2B4B3;
+}
+
+.feature-area.one .single-feature-box:hover .feature-content h4::before {
+    background: #000;
+}
+
+.feature-area.one .feature-content h4::after {
+    background: #B2B4B3;
+}
+
+.about-area.one {
+    background: #616A69;
+}
+
+.post-comment-description p {
+    color: #fff;
+}
+
+.tab-title p {
+    color: #fff;
+}
+
+.sub-title h2::before {
+    background: #fff;
+}
+
+.about-area.one .about-button a::before {
+    background: #fff;
+}
+
+.about-area.one .about-button::before {
+    border: 1px solid #fff;
+}
+
+.counter-area.one {
+    background: #616A69;
+}
+
+.counter-area.one .row.bg-col {
+    background: #B2B4B3;
+}
+
+.counter-area.one .counter-text h1 {
+    color: #000;
+}
+
+.counter-area.one .counter-text h1::before {
+    background: #B2B4B3;
+}
+
+.counter-area.one .counter-text h4::before {
+    background: #000;
+}
+
+.counter-area.one .counter-title h4 {
+    color: #000;
+}
+
+.feature-area.one.upper {
+    background: #B2B4B3;
+}
+
+.section-title.upper .main-title h1 {
+    color: #000;
+}
+
+.feature-area.one.upper .feature-content h4 {
+    background: #fff;
+}
+
+.feature-area.one.upper .feature-content h4::after {
+    background: #fff;
+}
+
+.feature-area.one.upper .single-feature-box:hover .feature-content h4::after {
+    background: #000;
+}
+
+.project-area.one {
+    background: #616A69;
+}
+
+.project-area.one .projects-btn a {
+    border: 1px solid #B2B4B3;
+}
+
+.project-area.one .projects-btn a::after {
+    border-color: #B2B4B3;
+}
+
+.testimonial-area.one .test-box {
+    background: #616A69;
+}
+
+.testimonial-area.one .testimonial-content {
+    border: 1px solid #616A69;
+}
+
+.testimonial-area.one .testimonial-content:hover {
+    border: #fff;
+}
+
+.testimonial-area.one .testimonial-description p {
+    color: #fff;
+}
+
+.testimonial-area.one .testimonial-tmb::before {
+    background: #fff;
+}
+
+.testimonial-area.one .testimonial-title h3 {
+    color: #000;
+}
+
+.testimonial-area.one .testimonial-title span {
+    color: #fff;
+}
+
+.service-area.one {
+    background: #616A69;
+}
+
+.service-area.one .service-description p {
+    color: #fff;
+}
+
+.service-area.one .icon-list ul li i {
+    color: #B2B4B3;
+}
+
+.service-area.one .service-title h3 span {
+    color: #B2B4B3;
+}
+
+.owl-dot.active {
+    background: #fff;
+}
+
+.contact-area-inner .form_box input {
+    background: #616A69;
+}
+
+.contact-area-inner .form_box textarea#message {
+    background: #616A69;
+}
+
+.contact-area-inner .quote_button {
+    background: #616A69;
+}
+
+.contact-area-inner .quote_button .btn {
+    color: #fff;
+}
+
+.map-section {
+    background: #616A69;
+}
+
+.footer-section {
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+}
+
+.footer-section .widgets-company-title h3::before {
+    background: #B2B4B3;
+}
+
+.footer-section .widgets-company-icon-list ul li {
+    color: #fff;
+}
+
+.footer-section .company-info-desc p {
+    color: #fff;
+}
+
+.footer-section .subscribe_form-title h3 {
+    color: #fff;
+}
+
+.form_box input {
+    border: 1px solid #B2B4B3;
+}
+
+button.btns {
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+    color: #fff;
+}
+
+button.btns:hover {
+    border: #616A69;
+    color: #000;
+}
+
+button.btns::before {
+    background: #B2B4B3;
+}
+
+.footer-section .widgets-company-icon-list ul li i {
+    color: #B2B4B3;
+}
+
+.footer-section .footer-icon-list ul li a {
+    color: #000;
+    background: #B2B4B3;
+    border: 1px solid #B2B4B3;
+}
+
+.footer-section .footer-icon-list ul li a:hover {
+    color: #fff;
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+}
+
+.footer-section .copy-rights h4 {
+    color: #fff;
+}
+
+.footer-section .row.mg-tp.align-items-center {
+    border-top: 1px solid #B2B4B3;
+}
+
+.prgoress_indicator svg.progress-circle path {
+    stroke: #fff;
+}
+
+.prgoress_indicator::after {
+    color: #fff;
+}
+
+.prgoress_indicator {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.hendre_menu>ul>li>a:hover {
+    color: #fff;
+}
+
+.hendre_menu>ul>li>a::after {
+    background-color: #fff;
+}
+
+.header-button a:hover {
+    color: #B2B4B3;
+}
+
+.slider-area.one .slider-icon-list ul li a:hover {
+    color: #B2B4B3;
+}
+
+.project-area.one .project-content {
+    background: #616A69;
+    border: 1px solid #B2B4B3;
+}
+
+.project-area.one .project-button a {
+    color: #B2B4B3;
+}
+
+.project-area.one .project-button a:hover {
+    color: #fff;
+}
+
+.project-area.one .project-content h4 {
+    color: #fff;
+}
+
+.project-area.one .project-button::before {
+    border: 1px solid #B2B4B3;
+}
+
+.project-area.one .project-button a::after {
+    background: #B2B4B3;
+}
+
+/* Acomodo */
+
+/* Correcciones */
+
+/* Nuevos estilos */
+.blackColor {
+    color: #000 !important;
+}

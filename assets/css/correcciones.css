@@ -337,6 +337,18 @@ button.btns::before {
     background: #fff;
 }
 
+.mean-container .mean-bar {
+    background: #616A69;
+}
+
+.about-area.one .about-thumb::before {
+    background: #616A69;
+}
+
+.project-area.one .project-thumb::before {
+    background: #616A69;
+}
+
 /* Acomodo */
 .centerObject {
     display: flex;
@@ -354,6 +366,12 @@ button.btns::before {
 
 .margin5 {
     margin: 5%;
+}
+
+@media (max-width: 500px) {
+  .margin5 {
+    margin: 0 !important;
+  }
 }
 
 .padding1{
@@ -392,6 +410,19 @@ button.btns::before {
     background: none;
 }
 
+.headerLogo {
+    max-width: 100%;
+    height: auto;
+}
+
+li a {
+    color: unset;
+}
+
+li a:hover {
+    color: #43baff;
+}
+
 /* Correcciones */
 .slider-area.one .slider-button::before {
     content: none;
@@ -399,6 +430,32 @@ button.btns::before {
 
 .appoinment-tab .tabs li.boder a::before {
     content: none;
+}
+
+.mean-container .mean-bar::before {
+    content: "Valdepeñas";
+}
+
+.tag-area.one {
+    background: url(../images/tagSection/llaves.webp);
+}
+
+.testimonial-area.one {
+    background: url(../images/testimoniosSection/testimonios.webp);
+}
+
+.breadcumb-area {
+    background: url(../images/contactoSection/titulo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-area-inner {
+    background: url(../images/contactoSection/contacto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Nuevos estilos */

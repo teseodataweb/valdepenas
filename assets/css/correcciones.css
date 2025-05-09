@@ -368,6 +368,10 @@ button.btns::before {
     padding-top: 5% !important;
 }
 
+.padding-Bottom-10 {
+    padding-bottom: 10% !important;
+}
+
 .width-100 {
     width: 100% !important;
 }
@@ -384,7 +388,9 @@ button.btns::before {
     max-width: 100% !important;
 }
 
-
+.footer-section.footer .widgets-company-title h3::before {
+    background: none;
+}
 
 /* Correcciones */
 .slider-area.one .slider-button::before {
@@ -408,4 +414,36 @@ button.btns::before {
 
 .about-area.one.corregirApartado .about-button::before {
     border: unset;
+}
+
+.custom-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.custom-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-subtitle {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.custom-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.custom-image {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

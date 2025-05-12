@@ -349,6 +349,24 @@ button.btns::before {
     background: #616A69;
 }
 
+.form_box input::placeholder {
+    color: #fff !important;
+}
+
+.footer_section_five .form_box input::placeholder {
+    color: #fff !important;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.list-unstyled li {
+    color: #000 !important;
+}
+
+/* Fin Colores */
+
 /* Acomodo */
 .centerObject {
     display: flex;
@@ -360,7 +378,7 @@ button.btns::before {
     text-align: center;
 }
 
-.margin0{
+.margin0 {
     margin: 0 !important;
 }
 
@@ -369,12 +387,12 @@ button.btns::before {
 }
 
 @media (max-width: 500px) {
-  .margin5 {
-    margin: 0 !important;
-  }
+    .margin5 {
+        margin: 0 !important;
+    }
 }
 
-.padding1{
+.padding1 {
     padding: 1% !important;
 }
 
@@ -390,6 +408,10 @@ button.btns::before {
     padding-bottom: 10% !important;
 }
 
+.padding-Bottom-5 {
+    padding-bottom: 5% !important;
+}
+
 .width-100 {
     width: 100% !important;
 }
@@ -398,11 +420,11 @@ button.btns::before {
     background: none;
 }
 
-.lotes .container{
+.lotes .container {
     width: 100% !important;
 }
 
-.lotes .container .row.align-items-center{
+.lotes .container .row.align-items-center {
     max-width: 100% !important;
 }
 
@@ -415,6 +437,11 @@ button.btns::before {
     height: auto;
 }
 
+.footerLogo {
+    max-width: 50%;
+    height: auto;
+}
+
 li a {
     color: unset;
 }
@@ -422,6 +449,66 @@ li a {
 li a:hover {
     color: #43baff;
 }
+
+.textJustify {
+    text-align: justify;
+}
+
+.mapDescription {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 500px) {
+    .mapDescription {
+        font-size: 1.5rem;
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+    .mapDescription li {
+        position: relative;
+        margin-bottom: 10px;
+        padding-left: 30px;
+    }
+
+    .mapDescription li::before {
+        content: "•";
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 3rem;
+        line-height: 0.8;
+    }
+}
+
+.counter-area.one .counter-text h1::before {
+    left: -5%;
+    top: -2%;
+}
+
+#privadasCarousel {
+    margin-bottom: 50px; /* Espacio entre el carrusel y la siguiente sección */
+}
+
+#privadasCarousel .carousel-control-prev,
+#privadasCarousel .carousel-control-next {
+    bottom: -70px; /* Ajusta este valor para separar los botones de las opciones del carrusel */
+    top: auto; /* Asegura que no se superpongan en la parte superior */
+}
+
+#privadasCarousel .carousel-control-prev-icon,
+#privadasCarousel .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejor visibilidad */
+    border-radius: 50%; /* Hace los íconos circulares */
+    padding: 10px; /* Espaciado interno */
+}
+
+#privadasCarousel .carousel-inner {
+    padding-bottom: 30px; /* Espacio adicional entre las opciones del carrusel y los botones */
+}
+
+/* Fin Acomodo */
 
 /* Correcciones */
 .slider-area.one .slider-button::before {
@@ -458,6 +545,22 @@ li a:hover {
     background-position: center;
 }
 
+.footer-section .widgets-company-title h3 {
+    font-size: 2.5rem;
+}
+
+.footer-section .widgets-company-icon-list ul li {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+    .footer-section .widgets-company-icon-list ul li {
+        font-size: 0.8rem;
+    }
+}
+
+/* Fin correciones */
+
 /* Nuevos estilos */
 .blackColor {
     color: #000 !important;
@@ -474,33 +577,33 @@ li a:hover {
 }
 
 .custom-section {
-  padding: 50px 0;
-  background-color: #f9f9f9;
+    padding: 50px 0;
+    background-color: #f9f9f9;
 }
 
 .custom-title {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .custom-subtitle {
-  font-size: 1.8rem;
-  color: #555;
-  margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 15px;
 }
 
 .custom-description {
-  font-size: 1.2rem;
-  color: #666;
-  margin-bottom: 30px;
-  line-height: 1.6;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
 }
 
 .custom-image {
-  width: 90%;
-  max-width: 1200px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

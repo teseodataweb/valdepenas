@@ -1,4 +1,20 @@
 /* Colores */
+.blackColor {
+    color: #000 !important;
+}
+
+.whiteColor {
+    color: #fff !important;
+}
+
+.darkGrayColor {
+    color: #616A69 !important;
+}
+
+.lightGrayColor {
+    color: #B2B4B3 !important;
+}
+
 .hendre_nav_manu {
     background: #616A69 !important;
     border: 1px solid #B2B4B3;
@@ -342,11 +358,11 @@ button.btns::before {
 }
 
 .about-area.one .about-thumb::before {
-    background: #616A69;
+    background: none;
 }
 
 .project-area.one .project-thumb::before {
-    background: #616A69;
+    background: none;
 }
 
 .form_box input::placeholder {
@@ -363,6 +379,10 @@ button.btns::before {
 
 .list-unstyled li {
     color: #000 !important;
+}
+
+.owl-dot {
+    background: #616A69;
 }
 
 /* Fin Colores */
@@ -562,9 +582,6 @@ li a:hover {
 /* Fin correciones */
 
 /* Nuevos estilos */
-.blackColor {
-    color: #000 !important;
-}
 
 .corregirApartado {
     padding: 0% !important;

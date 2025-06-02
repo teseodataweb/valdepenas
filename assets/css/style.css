@@ -2336,11 +2336,10 @@ ul.social-box li a:hover {
 ======================================================**/
 
 .tag-area.one {
-    background: url(../images/resource/tag-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 115px 0 100px;
+    padding: 50px 0 50px;
 }
 
 .tag-area.one.upper {

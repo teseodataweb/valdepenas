@@ -548,9 +548,7 @@ li a:hover {
   content: "Valdepeñas";
 }
 
-.tag-area.one {
-  background: url(../images/tagSection/llaves.webp);
-}
+
 
 .testimonial-area.one {
   background: url(../images/testimoniosSection/testimonios.webp);
@@ -564,7 +562,7 @@ li a:hover {
 }
 
 .contact-area-inner {
-  background: url(../images/contactoSection/contacto.webp);
+  background: url(../images/contactoSection/backcontacto.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
